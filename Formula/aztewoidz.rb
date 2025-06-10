@@ -6,7 +6,7 @@ class Aztewoidz < Formula
   desc "aztewoidz
 "
   homepage "https://github.com/aidanaden/aztewoidz"
-  version "0.1.9"
+  version "0.1.10"
 
   on_macos do
     on_intel do
@@ -30,8 +30,8 @@ class Aztewoidz < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/aidanaden/aztewoidz/releases/download/0.1.9/aztewoidz-0.1.9-linux-amd64.tar.gz"
-        sha256 "6380f9c316ec2513d57f7d911431059d68f2eb7201a68cee36af9e96754dab46"
+        url "https://github.com/aidanaden/aztewoidz/releases/download/0.1.10/aztewoidz-0.1.10-linux-amd64.tar.gz"
+        sha256 "08ba03227740beffd7301d4438d055c5b63b52cff340000cb2d8f8e4a40768be"
 
         def install
           bin.install "aztewoidz"
