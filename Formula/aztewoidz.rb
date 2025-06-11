@@ -8,25 +8,25 @@ class Aztewoidz < Formula
   desc "Asteroid game written with raylib in zig"
   homepage "https://github.com/aidanaden/aztewoidz"
   url "https://github.com/aidanaden/aztewoidz/archive/refs/tags/0.1.10.tar.gz"
-  sha256 "ce1f31d0a4446ab4c27a6dc85d3d2a12e25bee06505fc6710d4bae792e9dbfe8"
+  sha256 "2eedc5c3ea1b936d053699ce57e6adca7c1937f7a869199fed9a80a89b6deb8c"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/aidanaden/aztewoidz/releases/download/0.1.10/aztewoidz-0.1.10-darwin-amd64.tar.gz"
-      sha256 "ba9e4ec52b3a18a041d14bc0568a034c1a179b2ef06f715146e5aeac3fc0ab65"
+      sha256 "8226988826d781833a9459e2a24d6851e6d5c88c495a2df6ab17aebee62ec761"
     end
 
     on_arm do
       url "https://github.com/aidanaden/aztewoidz/releases/download/0.1.10/aztewoidz-0.1.10-darwin-arm64.tar.gz"
-      sha256 "06ff75e58e4c9c0ef7ae98d79446aa39836cd90bdfcb9f8cf3bae404f6fe9857"
+      sha256 "29eae0b73b6dc7b0326e8aad40746b59ef5bfc0521458c9678e59421d604cf42"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/aidanaden/aztewoidz/releases/download/0.1.10/aztewoidz-0.1.10-linux-amd64.tar.gz"
-      sha256 "08ba03227740beffd7301d4438d055c5b63b52cff340000cb2d8f8e4a40768be"
+      sha256 "4fdc68e04b308069f0ea1f80e8de6d22b625e284062cce4436c967485d8ccedc"
     end
   end
 
